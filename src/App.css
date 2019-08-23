@@ -1,0 +1,115 @@
+.section {
+    max-width: 900px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+}
+
+.title h3 {
+    margin-top: 12px;
+    width: 50%;
+}
+
+.dots {
+    height: 50px;
+    width: 50%;
+    background-image: -webkit-repeating-radial-gradient(
+        center center,
+        #5125bd,
+        #5125bd 1.5px,
+        transparent 1px,
+        transparent 100%
+    );
+    background-size: 15px 15px;
+    background-position: center right;
+}
+
+.title {
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #5125bd;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-curso {
+    margin: 30px;
+    width: 385px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 3px rgba(209, 213, 221, 0.5);
+}
+
+.card-curso header {
+    color: white;
+    padding-left: 35px;
+    font-size: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-curso header h3 {
+    max-width: 50%;
+    margin: 20px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.card-curso div {
+    background-color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 15px 15px;
+    margin: 0px;
+}
+
+.card-curso-section-title {
+    color: #5125bd;
+    font-size: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-curso-section-description {
+    color: #6f7381;
+}
+
+.mini-card {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    width: 230px;
+    background-color: white;
+    text-align: center;
+    height: 280px;
+    border-radius: 12px;
+}
+
+.mini-card-image {
+    height: 60px;
+    margin: 35px auto 15px auto;
+}
+
+.mini-card-image img {
+    height: 60px;
+}
+
+.mini-card-title {
+    font-size: 18px;
+    color: #5225bd;
+    font-weight: bold;
+}
+
+.mini-card-description {
+    color: #6e7380;
+    width: 170px;
+    margin: 0 auto;
+}
